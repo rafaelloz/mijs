@@ -1,0 +1,41 @@
+{
+  "name": "sorteoPremios",
+  "version": "1.0.0",
+  "description": "Ejemplo del libro : un sistema sencillo que devuelve una lista de premios",
+  "author": "Jose ignacio hita barraza",
+  "contributors": [
+    {
+      "name": "jose ignacio",
+      "email": "ign@ign.com"
+    }
+  ],
+  "script": {
+    "test": "gulp",
+    "predeploy": "gulp deploy"
+  },
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ignaciohita/sorteoPremios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ignaciohita/sorteoPremios/issues"
+  },
+  "keywords": [
+    "AngularJS",
+    "example",
+    "teaching"
+  ],
+  "dependencies": {
+    "gulp-closure-compiler": "^0.4.0",
+    "gulp-gjslint": "^0.1.5",
+    "gulp-inject": "^4.3.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-jslint": "^1.0.10",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.5"
+  },
+  "preferGlobal": true,
+  "private": false,
+  "license": "MIT"
+}
